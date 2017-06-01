@@ -24,7 +24,7 @@ Navigate to http://localhost:8080/.
 Follow the cursor:
 
 ```
-> live $ mouse <#> \{ x, y } -> dot x y 50.0
+> live $ map (\{ x, y } -> dot x y 50.0) mouse
 ```
 
 ### Mouse Clicks
@@ -33,7 +33,7 @@ Increase the radius when the mouse is clicked:
 
 ```
 > withRadius radius = live $ (\{ x, y } r -> dot x y r) <$> mouse <*> radius
-> withRadius $ (if _ then 100.0 else 50.0) <$> click
+> withRadius $ map (if _ then 100.0 else 50.0) click
 ```
 
 ### Functions of Time
@@ -41,7 +41,7 @@ Increase the radius when the mouse is clicked:
 Express the radius as an integral over time:
 
 ```
-> withRadius $ integral' 50.0 seconds ((if _ then 50.0 else 0.0) <$> click)
+> withRadius $ integral' 50.0 seconds (map (if _ then 50.0 else 0.0) click)
 ```
 
 ### Advanced Functions of Time
