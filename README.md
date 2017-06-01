@@ -1,10 +1,8 @@
 # purescript-behaviors-demo
 
-purescript-behaviors in PSCi
+`purescript-behaviors` demo in the REPL
 
 ## Guide
-
-You will need 
 
 First install dependencies:
 
