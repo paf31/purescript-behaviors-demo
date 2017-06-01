@@ -1,0 +1,19 @@
+{
+  "name": "purescript-behaviors-demo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^3.0.0",
+    "purescript-console": "^3.0.0",
+    "purescript-psci-support": "^3.0.0",
+    "purescript-behaviors": "^5.1.0",
+    "purescript-drawing": "^3.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^3.0.0"
+  }
+}
