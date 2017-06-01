@@ -4,13 +4,22 @@ purescript-behaviors in PSCi
 
 ## Guide
 
-Start PSCi:
+You will need 
+
+First install dependencies:
+
+```
+npm install -g purescript pulp bower
+bower update
+```
+
+Then open the REPL:
 
 ```
 $ pulp psci -- --port 8080
 ```
 
-Open http://localhost:8080/.
+Navigate to http://localhost:8080/.
 
 ### Mouse Position
 
