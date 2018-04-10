@@ -59,3 +59,9 @@ Express the radius as a solution of a differential equation:
           <*> derivative' seconds x  
           <*> click 
 ```
+The differential equation is _d<sup>2</sup>x/dt<sup>2</sup> = -5(x - 50) - 2dx/dt_
+,  which is rearranged so the right hand side gives an expression whose fixed point solution is a function of time describing an oscillation.
+
+x = ∫ ∫  _-5(x - 50) - 2dx/dt_ dt dt
+
+The differential equation is described in [Damped_harmonic_oscillator](https://en.wikipedia.org/wiki/Harmonic_oscillator#Damped_harmonic_oscillator), whereby these coefficients give a damping ratio ζ < 1. 
