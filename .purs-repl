@@ -9,4 +9,4 @@ import FRP.Behavior
 import FRP.Behavior.Keyboard
 import FRP.Behavior.Mouse
 import FRP.Behavior.Time
-import FRP.Live
+import FRP.Live2019
